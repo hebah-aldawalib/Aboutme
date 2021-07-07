@@ -40,21 +40,23 @@ else {
 }
 question3();
 
-let guess = prompt('guess number between 1-6')
+function question4() {let guess = prompt('guess number between 1-6')
 while (guess != "6") {
     alert("not correct")
     guess = prompt('guess number between 1-6')
 }
 alert("corret")
-// if (guess ==) {
-//     console.log('not correct');
-// }
-// else if (guess == '6') {
-//     console.log('correct answer')
-// }
-// else {
-//     console.log('pls answer')
-// }
+if (guess ==) {
+    console.log('not correct');
+}
+else if (guess == '6') {
+    console.log('correct answer')
+}
+else {
+    console.log('pls answer')
+}
+}
+question4();
 
 
 let color = ['blue', 'pink', 'black', 'yallow'];
