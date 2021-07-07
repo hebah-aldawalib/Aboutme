@@ -9,16 +9,16 @@ if (favoriteSport === "yes") {
     alert('good');
     score++;
 }
-}
-question1();
+
 
 else {
     alert('unfortunately')
 
 }
+}
+question1();
 
-
-let swimming = prompt('i like swimming?')
+function question2(){let swimming = prompt('i like swimming?')
 if (swimming === "yes") {
     alert('wawooo')
 
@@ -27,6 +27,8 @@ else {
     alert('unfortunately')
 }
 
+}
+question2();
 
 let basket = prompt('i like backetball?')
 if (basket === "yes") {
