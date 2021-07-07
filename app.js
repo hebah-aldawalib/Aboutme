@@ -30,14 +30,15 @@ else {
 }
 question2();
 
-let basket = prompt('i like backetball?')
+function question3() {let basket = prompt('i like backetball?')
 if (basket === "yes") {
     alert('nice')
 }
 else {
     alert('goodluck')
 }
-
+}
+question3();
 
 let guess = prompt('guess number between 1-6')
 while (guess != "6") {
