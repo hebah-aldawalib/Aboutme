@@ -59,14 +59,15 @@ else {
 question4();
 
 
-let color = ['blue', 'pink', 'black', 'yallow'];
+function question5() {let color = ['blue', 'pink', 'black', 'yallow'];
 console.log(color.length);
 let fav=prompt('what is my bed color?');
 
 for (let i = 0; i < color.length; i ++) {
     console.log(color[i]);
 }
-
+}
+question5(),
 
 
 
