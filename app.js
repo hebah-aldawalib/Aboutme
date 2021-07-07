@@ -1,3 +1,4 @@
+function question1(){
 let favoriteSport = prompt('is football my favorite sport?')
 favoriteSport = favoriteSport.toLowerCase();
 let score=0;
@@ -8,6 +9,8 @@ if (favoriteSport === "yes") {
     alert('good');
     score++;
 }
+}
+question1();
 
 else {
     alert('unfortunately')
