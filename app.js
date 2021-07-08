@@ -2,7 +2,7 @@ let favoriteSport = prompt('is football my favorite sport?')
 favoriteSport = favoriteSport.toLowerCase();
 let score=0;
 if (favoriteSport === "yes") {
-    console.log('befor', 'after');
+    
 
 
     alert('good');
@@ -52,11 +52,11 @@ alert("corret")
 
 
 let color = ['blue', 'pink', 'black', 'yallow'];
-console.log(color.length);
+
 let fav=prompt('what is my bed color?');
 
 for (let i = 0; i < color.length; i ++) {
-    console.log(color[i]);
+    
 }
 
 
